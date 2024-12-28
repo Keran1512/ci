@@ -6,8 +6,40 @@
 */
 
 /* global styles */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap');
 
+/* Header */
+#hero {
+    background-color: lightgray;
+    background-image: url("assets/images/background.webp");
+    background-size: cover;
+    background-position: 50% 70%;
+    min-height: 500 px
+    padding: 5% 7%;
+}
 body {
     font-family: "Poppins", sans-serif;
     background-color: #a4c2d1; /* egg blue */
+}
+
+h1,
+h2 {
+    font-family: "DM Serif Display", serif;
+    color:  #184f63; /* dark-blue */
+}
+
+/* About section */
+
+#about {
+    background-color: white;
+}
+
+/* Portfolio section */
+#portfolio {
+    background-color: lightgray;
+}
+
+/* Contact section */
+#contact {
+    background-color: white;
 }
